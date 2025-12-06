@@ -4,11 +4,10 @@
   "title": "Windows Audio Output",
   "description": "Switch the active audio output device on Windows",
   "icon": "extension-icon.png",
-  "license": "MIT",
   "commands": [
     {
-      "name": "set-audio-output",
-      "title": "Set Audio Output",
+      "name": "switch-audio-output",
+      "title": "Switch Audio Output",
       "subtitle": "Windows Audio Output",
       "description": "Sets the active audio output device on Windows",
       "mode": "view"
@@ -35,7 +34,7 @@
     "publish": "npx @raycast/api@latest publish",
     "prepublishOnly": "echo \"\\n\\nIt seems like you are trying to publish the Raycast extension to npm.\\n\\nIf you did intend to publish it to npm, remove the \\`prepublishOnly\\` script and rerun \\`npm publish\\` again.\\nIf you wanted to publish it to the Raycast Store instead, use \\`npm run publish\\` instead.\\n\\n\" && exit 1"
   },
-  "author": "hugo21",
+  "author": "xHugo21",
   "platforms": [
     "Windows"
   ],
