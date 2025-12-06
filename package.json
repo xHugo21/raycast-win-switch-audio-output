@@ -2,21 +2,22 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "windows-audio-output",
   "title": "Windows Audio Output",
-  "description": "Allows changing windows audio output",
+  "description": "Switch the active audio output device on Windows",
   "icon": "extension-icon.png",
   "license": "MIT",
   "commands": [
     {
       "name": "set-audio-output",
       "title": "Set Audio Output",
-      "description": "Allows changing windows audio output",
-      "mode": "no-view",
-      "subtitle": ""
+      "subtitle": "Windows Audio Output",
+      "description": "Sets the active audio output device on Windows",
+      "mode": "view"
     }
   ],
   "dependencies": {
     "@raycast/api": "^1.103.0",
-    "@raycast/utils": "^2.2.1"
+    "@raycast/utils": "^2.2.1",
+    "execa": "^8.0.1"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^2.0.4",
@@ -38,7 +39,11 @@
   "platforms": [
     "Windows"
   ],
-  "categories": [
-    "Media"
+  "keywords": [
+    "sound",
+    "audio",
+    "output",
+    "device",
+    "windows"
   ]
 }
