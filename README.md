@@ -2,6 +2,8 @@
 
 A Raycast extension for Windows that allows to quickly switch between audio output devices.
 
+<img width="927" height="584" alt="image" src="https://github.com/user-attachments/assets/3b30ea38-b7c6-4e5d-a69c-c8ea0586e07d" />
+
 ## 📃 Credits
 
 This project was inspired by its MacOS counterpart: [raycast/extensions/audio-device](https://github.com/raycast/extensions/tree/6070268db8d58aae1b67eeaa7de0330b5ba92007/extensions/audio-device).
