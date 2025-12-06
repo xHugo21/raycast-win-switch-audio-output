@@ -2,7 +2,7 @@
 
 A Raycast extension for Windows that allows to quickly switch between audio output devices.
 
-<img width="927" height="584" alt="image" src="https://github.com/user-attachments/assets/3b30ea38-b7c6-4e5d-a69c-c8ea0586e07d" />
+<img width="938" height="594" alt="image" src="https://github.com/user-attachments/assets/07c69989-b252-4ce2-9766-eb0ee1586f1e" />
 
 ## 📃 Credits
 
