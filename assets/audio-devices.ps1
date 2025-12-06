@@ -1,5 +1,4 @@
 # Windows Audio Device Manager PowerShell Script
-# Simplified approach using Windows Core Audio API
 
 param(
     [Parameter(Mandatory=$true)]
